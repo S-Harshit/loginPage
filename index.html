@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <section class="loginForm">
+      <div class="bundle inc">
+        <h1>Login</h1>
+        <p>Doesn't have a account yet? <a href="http://">Sign Up</a></p>
+      </div>
+
+      <form action="">
+        <div class="bundle">
+          <label class="label--heading" for="email">Email Address</label>
+          <input name="email" type="email" placeholder="you@example.com">
+
+        </div>
+        <div class="bundle">
+          <div class="flex spacebetween">
+            <label id="forgetPassword" class="label--heading" for="password">Password</label>
+            <a class="subLink" href="#">Forgot Password?</a>
+          </div>
+
+          <input type="password" placeholder="enter 6 character or more" minlength="6">
+        </div>
+
+        <div class="bundle">
+          <input type="checkbox" name="rememberMe" id="rememberMe">
+          <label class="checkbox-label" for="rememberMe">Remember me</label>
+        </div>
+        <button class="btn--submit" type="submit">Login</button>
+
+        <p class="division">or login with</p>
+        <div class="OAuthButtons">
+          <button class="oAuthButton" id="google">
+            <div class="oAuth"><img class="logo" src="google.png" />Google</div>
+          </button>
+          <button class="oAuthButton" id="facebook">
+            <div class="oAuth"><img class="logo" src="facebook.png" />facebook</div>
+          </button>
+        </div>
+    </section>
+    <section>
+      <img class="graphic" src="pngwing.com.png" alt="Person Sitting on Chair">
+    </section>
+  </main>
+</body>
+
+</html>
