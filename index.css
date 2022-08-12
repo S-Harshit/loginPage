@@ -85,6 +85,10 @@ input {
   padding: 1em;
 }
 
+input[type=email]:focus {
+  border: 1px solid var(--bg-color);
+}
+
 input[type="checkbox"] {
   height: auto;
   width: auto;
